@@ -1,25 +1,60 @@
-# homologacao
-homologacao de api
 
-Passos para contribuir no projeto:
+# Homologação
 
-1 - Criar ambiente virtual:
-    python -m venv venv
+Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
-2 - Ativar ambiente virtual:
-    source venv/bin/activate
 
-3 - Instalar dependencias:
+## Criar ambiente virtual
+
+Criar ambiente virtual
+
+```bash
+  python -m venv venv
+```
+
+Ativar ambiente virtual em Linux
+
+```bash
+  source venv/bin/activate
+```
+
+Ativar ambiente virtual em Windows
+
+```bash
+   venv/Scripts/activate
+```
+
+Instalar dependencias
+
+```bash
     pip install -r requirements.txt
+```
 
-Fluxo do git:
+## Fluxo do Git
 
-1 - Entrar na branch de desenvolvimento:
-    git checkout develop
+Entrar na branch de desenvolvimento:
 
-2 - Criar feature a ser trabalhada:
-    git checkout -b name-feature
+```bash
+  git checkout develop
+```
 
-3 - Finalizar a feature e mandar para develop:
-    git checkout develop
-    git merge name-feature
+Criar feature a ser trabalhada:
+
+```bash
+  git checkout -b name-feature
+```
+
+Finalizar a feature:
+
+```bash
+   git add
+   git commit -m "descricao da feature"
+```
+Mandar para develop:
+
+```bash
+   git checkout develop
+   git merge name-feature
+   git push
+   git branch -D name-feature
+```
