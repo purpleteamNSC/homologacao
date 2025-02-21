@@ -1,0 +1,30 @@
+LEVANTAMENTO DE REQUISITOS:
+    - Fechar todos os casos abertos no Helix
+
+DESCREVER OS REQUISITOS DE SOFTWARE
+    - REQUISITOS FUNCIONAIS
+        - Script para fechar os casos abertos usando o API do Helix
+    - REQUISITOS NÃO-FUNCIONAIS
+        - Paradigma funcional
+        - API Externa
+PROJETO
+    - INFRA
+        - Local
+    - LINGUAGENS
+        - Python
+    - PROTOCOLOS
+        - HTTPS
+    - TEMPO
+        - Sprint 7 dias
+    - RESPONSÁVEIS
+        - Artur
+
+IMPLEMENTAÇAO
+    - Validar API externa
+    - Criar as variáveis
+    - Teste das variáveis
+    - Teste das APIs
+    - Filtrar os casos abertos
+    - Get os casos
+    - Gerar código para fechar os casos abertos
+    - LOGs
